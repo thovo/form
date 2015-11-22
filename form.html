@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>Form Demo</title>
+  <link rel="stylesheet" href="static/css/style.css" media="screen">
+</head>
+
+<body>
+  <div class="container">
+    <div class="col-md-8 title-container ">
+      <div class="title">
+        <h1>
+          Pré-Inscription
+          <img draggable="false" class="emoji" alt="❤" src="http://s.w.org/images/core/emoji/72x72/2764.png"> </h1>
+      </div>
+    </div>
+    <div class="col-md-12 full-width">
+      <section id="yikes-mailchimp-container-1" class="yikes-mailchimp-container yikes-mailchimp-container-1 ">
+        <form id="rejoins-la-communaute-des-carbranders-1" class="yikes-easy-mc-form yikes-easy-mc-form-1  " action="http://carbranders.com/" method="POST" data-attr-form-id="1">
+          <!-- Basic Information -->
+          <section id="information" class="form-group">
+            <label for="profile-picture">
+              <span>Photo de profil</span>
+              <input type="file" name="profile-picture" id="profile-picture">
+            </label>
+            <label for="nom">
+              <span>Nom</span>
+              <input type="text" placeholder="Votre nom" required="required" id="nom">
+            </label>
+            <label for="prenom">
+              <span>Prénom</span>
+              <input type="text" placeholder="Votre prénom" required="required" id="prenom">
+            </label>
+            <label for="email">
+              <span>Email Adresse</span>
+              <input type="email" name="email" placeholder="abc@example.com" required="required" id="email">
+            </label>
+            <label for="telephone">
+              <span>Téléphone</span>
+              <input type="text" name="telephone" placeholder="0782942640" id="telephone">
+            </label>
+            <label for="adresse">
+              <span>Adresse</span>
+              <input type="text" name="adresse" placeholder="Votre adresse" id="adresse">
+            </label>
+            <label for="code-postale">
+              <span>Code Postale</span>
+              <input type="text" name="code-postale" placeholder="Votre code postale" id="code-postale">
+            </label>
+            <label for="ville">
+              <span>Ville</span>
+              <input type="text" name="ville" placeholder="Votre ville" id="ville">
+            </label>
+          </section>
+          <!-- Car -->
+          <section id="car" class="form-group">
+            <label for="brand">
+              <span>Brand</span>
+              <select name="brand" id="brand">
+                <option value=" " selected>Sélectionnez votre marque</option>
+                <option value="Peugeot">Peugeot</option>
+                <option value="Mercedes">Mercedes</option>
+              </select>
+            </label>
+            <label for="modele">
+              <span>Modèle</span>
+              <input type="text" name="modele" placeholder="Modèle" id="modele">
+            </label>
+            <label for="immatriculation">
+              <span>Immatriculation</span>
+              <input type="text" name="immatriculation" placeholder="immatriculation" id="immatriculation">
+            </label>
+            <label for="couleur">
+              <span>Couleur de votre voiture</span>
+              <input type="text" name="couleur" placeholder="Gris" id="couleur">
+            </label>
+          </section>
+          <!-- Justification -->
+          <section id="justification" class="form-group">
+            <label for="permis">
+              <input type="checkbox" name="permis" id="permis">
+              <span>Permis de conduire valide</span>
+            </label>
+            <label for="insurance">
+              <input type="checkbox" name="insurance" id="insurance">
+              <span>Assurance valide</span>
+            </label>
+            <label for="rib">
+              <span>RIB</span>
+              <input type="file" name="rib" id="rib">
+            </label>
+            <label for="justificatif-domicile">
+              <span>Justificatif domicile</span>
+              <input type="file" name="justificatif-domicile" id="justificatif-domicile">
+            </label>
+          </section>
+          <!-- Campaign -->
+          <section  id="advertiser-campaign" class="form-group">
+            <label for="campaign">
+              <span>Campaign</span>
+              <select name="campaign" id="campaign">
+                <option value=" " selected>Sélectionnez campagne</option>
+                <option value="c1">Campagne 1</option>
+                <option value="c2">Campagne 2</option>
+              </select>
+            </label>
+          </section>
+          <button type="submit" class="btn btn-primary" formnovalidate>Envoyer</button>
+        </form>
+      </section>
+    </div>
+  </div>
+</body>
+</html>
